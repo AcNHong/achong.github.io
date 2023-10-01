@@ -1,0 +1,18 @@
+<!--pages/list/list.wxml-->
+<!--轮播图-->
+<!--indicator-dots代表所在页原点 color表示所有页的圆点颜色 autoplay自动切换轮播图 interval表示切换的间隔时间 cicular表示是否衔接轮播效果-->
+<swiper class="swiper-container" indicator-dots autoplay="true" indicator-color="white" indicator-dots="gray" interval="2500" circular="true">
+<!--第一个轮播图-->
+<swiper-item>
+  <view class="item">A</view>
+</swiper-item>
+<!--第二个轮播图-->
+<swiper-item>
+  <view class="item">B</view>
+</swiper-item>
+<!--第三个轮播图-->
+<swiper-item>
+  <view class="item">C</view>
+</swiper-item>
+</swiper>
+
